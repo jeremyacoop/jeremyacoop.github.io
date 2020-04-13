@@ -9,6 +9,6 @@ h1{
     font-size: 36px;
   }
 p{
-  whitespace: normal;
+  whitespace: pre-wrap;
 }
 
