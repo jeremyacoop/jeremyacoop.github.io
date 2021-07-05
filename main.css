@@ -1,5 +1,12 @@
 h1{
-  alignment: center;
+  color: green;
+  border-bottom: 1px solid #000;
+  font-family: Verdana;
+  font-size: 36px;
+}
+
+h2{
+  color: maroon;
 }
 
 body{
@@ -10,11 +17,7 @@ body{
   font-family: Candara,'Trebuchet MS',Sans-serif;
   
 }
-h1{
-    font-size: 36px;
-    border-bottom: 1px solid #000
-  }
+
 p{
   whitespace: pre-wrap;
 }
-
