@@ -23,7 +23,6 @@ p{
 
 ul{
   background: url('bullet.png') no-repeat left top;
-  display: block;
   height: 8px;
   padding-left: 16px;
   padding-top: 32px;
