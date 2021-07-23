@@ -1,6 +1,6 @@
 h1{
-  color: green;
   border-bottom: 1px solid #000;
+  color: green;
   font-family: Verdana;
   font-size: 36px;
 }
@@ -10,12 +10,11 @@ h2{
 }
 
 body{
+  font-family: Candara,'Trebuchet MS',Sans-serif;
   margin-left: 30%;
   margin-top: 0.5in;
   margin-bottom: 1in;
   width: 700px;
-  font-family: Candara,'Trebuchet MS',Sans-serif;
-  
 }
 
 p{
@@ -24,6 +23,7 @@ p{
 
 ul{
   list-style-image: url('bullet.png');
+  display: block;
   height: 22px;
   width: 22px;
 }
