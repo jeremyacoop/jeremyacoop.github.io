@@ -25,4 +25,5 @@ p{
 ul{
   list-style-image: url('bullet.png');
   height: 22px;
+  width: 22px;
 }
