@@ -22,8 +22,10 @@ p{
 }
 
 ul{
-  list-style-image: url('bullet.png');
+  background: url('bullet.png') no-repeat left top;
   display: block;
   height: 22px;
+  padding-left:44px;
+  padding-top: 4px;
   width: 22px;
 }
