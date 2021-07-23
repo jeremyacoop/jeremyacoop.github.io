@@ -23,8 +23,9 @@ p{
 
 ul{
   background: url('bullet.png') no-repeat left top;
+  display: block;
   height: 16px;
   padding-left: 24px;
-  padding-top: 6px;
+  padding-top: 12px;
   width: 16px;
 }
