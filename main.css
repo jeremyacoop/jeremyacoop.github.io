@@ -22,5 +22,8 @@ p{
 }
 
 ul{
-  background: url('bullet.png');
+  background: url('bullet.png') no-repeat left top;
+  height:22px;
+  padding-left:12px;
+  padding-top:6px;
 }
