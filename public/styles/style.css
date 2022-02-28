@@ -1,11 +1,10 @@
 h1{
-  background-image: url('anastasiia-malai-N8Jy2W0x0Ak-unsplash.jpg');
   background-size: cover;
   width: 100%;
   height: 96px;
   object-fit: cover;
   border-bottom: 1px solid #000;
-  color: green;
+  color: rgb(0, 83, 0);
   font-family: Verdana;
   font-size: 36px;
 }
@@ -15,11 +14,27 @@ h2{
 }
   
 body{
+  background-image: url('../images/621c640054773.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   font-family: Candara,'Trebuchet MS',Sans-serif;
   margin-left: 30%;
   margin-top: 0.5in;
   margin-bottom: 1in;
   width: 700px;
+}
+
+footer {
+  position: absolute;
+  font-size: xx-small;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            
 }
   
 li{
