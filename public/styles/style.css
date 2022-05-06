@@ -1,12 +1,17 @@
+html {
+
+}
+
 h1{
-  background-size: cover;
-  width: 100%;
+  width: 85%;
   height: 72px;
+  margin-left: 27px;
   object-fit: cover;
-  border-bottom: 1px solid #000000;
-  color: rgb(0, 83, 0);
+  color: darkgreen;
+  padding-bottom: 110px;
+  padding-top: 40px;
   font-family: Verdana;
-  font-size: 36px;
+  font-size: 42px;
 }
   
 h2{
@@ -18,15 +23,13 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-position: unset;
   font-family: Candara,'Trebuchet MS',Sans-serif;
-  margin-left: 30%;
+  font-size: medium;
+  margin-left: 27%;
   margin-top: 0.5in;
   margin-bottom: 1in;
-  width: 700px;
+  width: 800px;
 }
 
 footer {
@@ -51,6 +54,11 @@ ul{
   list-style-type: square;
 }
   
+#contact-links {
+  display: inline-flex; 
+  flex: auto;
+}
+  
 #technical-skills {
   display: inline-flexbox; 
   flex: auto;
@@ -58,9 +66,14 @@ ul{
 
 .devicon {
   display: inline-flex;
-  align-items: flex-end;
   margin: 20px;
   width: 8em;
+}
+
+.jc-img {
+  margin-left: 200px;
+  max-inline-size: 110px;
+  border-radius: 90%;
 }
 
 .info-heading {
@@ -69,4 +82,12 @@ ul{
 
 .project-heading {
   margin-top: 30px;
+}
+
+.testbox {
+  padding: 30px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  border-radius: 1%;
+  width: 700px;
 }
