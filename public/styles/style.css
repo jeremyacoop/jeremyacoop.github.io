@@ -1,8 +1,4 @@
-html {
-
-}
-
-h1{
+h1 {
   width: 85%;
   height: 72px;
   margin-left: 27px;
@@ -14,11 +10,11 @@ h1{
   font-size: 42px;
 }
   
-h2{
+h2 {
   color: maroon;
 }
   
-body{
+body {
   background-image: url('../images/621c640054773.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -29,6 +25,7 @@ body{
   margin-left: 27%;
   margin-top: 0.5in;
   margin-bottom: 1in;
+  position: absolute;
   width: 800px;
 }
 
@@ -40,17 +37,17 @@ footer {
   height: 2.5rem;            
 }
   
-li{
+li {
   line-height: 24px;
   padding-left: 20px;
   padding-bottom: 6px;
 }
 
-p{
+p {
   white-space: normal;
 }
 
-ul{
+ul {
   list-style-type: square;
 }
   
@@ -89,5 +86,6 @@ ul{
   background-color: #ffffff;
   opacity: 0.6;
   border-radius: 1%;
+  margin-bottom: 20px;
   width: 700px;
 }
